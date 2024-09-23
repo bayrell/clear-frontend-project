@@ -1,0 +1,12 @@
+[submodule "src/plugins/Runtime"]
+	path = src/plugins/Runtime
+	url = https://github.com/bayrell/Runtime
+[submodule "src/plugins/Runtime.Web"]
+	path = src/plugins/Runtime.Web
+	url = https://github.com/bayrell/Runtime.Web
+[submodule "src/plugins/Runtime.Widget"]
+	path = src/plugins/Runtime.Widget
+	url = https://github.com/bayrell/Runtime.Widget
+[submodule "src/plugins/Runtime.Widget.Blocks"]
+	path = src/plugins/Runtime.Widget.Blocks
+	url = https://github.com/bayrell/Runtime.Widget.Blocks

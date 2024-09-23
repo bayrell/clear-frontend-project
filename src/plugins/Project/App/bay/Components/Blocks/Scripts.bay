@@ -1,0 +1,25 @@
+<!--
+ *  Scripts
+-->
+
+<class name="Project.App.Components.Blocks.Scripts">
+
+<use name="Project.App.ModuleDescription" />
+
+<template>
+	<script type='text/javascript' id='vue-runtime-js'
+		src='assets/vue.runtime.global.js'></script>
+	<script type='text/javascript' id='app-runtime-js'
+		src={{ 'assets/runtime.js?ver=' ~ ModuleDescription::getModuleVersion() }}></script>
+	<script type='text/javascript' id='app-js'
+		src={{ 'assets/app.js?ver=' ~ ModuleDescription::getModuleVersion() }}></script>
+	%if (@.env("CONSTRUCTOR"))
+	{
+		<script type='text/javascript' id='app-js'
+			src={{ '/assets/constructor.js?ver=' ~ ModuleDescription::getModuleVersion() }}></script>
+		<script type='text/javascript' id='app-js'
+			src={{ 'assets/constructor.js?ver=' ~ ModuleDescription::getModuleVersion() }}></script>
+	}
+</template>
+
+</class>

@@ -1,0 +1,22 @@
+<class name="Project.App.Components.NotFoundPage.NotFoundPage">
+
+<use name="Runtime.Widget.Text" component="true" />
+
+<style>
+.text_not_found{
+	font-size: 150%;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+</style>
+
+<template>
+	<div class="not_found_page">
+		<Text content="Страница не найдена" class="text_not_found">
+		</Text>
+	</div>
+</template>
+
+</class>

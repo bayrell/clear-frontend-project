@@ -1,0 +1,20 @@
+namespace Project.App.Components.IndexPage;
+
+use Runtime.Entity.Factory;
+use Runtime.Web.BasePageModel;
+use Runtime.Web.RenderContainer;
+use Project.App.Components.IndexPage.IndexPage;
+
+
+class IndexPageModel extends BasePageModel
+{
+	string component = classof IndexPage;
+	void initWidget(Dict params)
+	{
+		parent(params);
+	}
+	void buildTitle(RenderContainer container)
+	{
+		this.layout.setPageTitle("Index page");
+	}
+}

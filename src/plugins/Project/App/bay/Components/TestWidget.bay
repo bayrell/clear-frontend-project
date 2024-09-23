@@ -1,0 +1,11 @@
+<class name="Project.App.Components.TestWidget">
+
+<use name="Runtime.Widget.Text" />
+
+<template>
+	<div class="page">
+		<Text content="Content" class="page_text" />
+	</div>
+</template>
+
+</class>

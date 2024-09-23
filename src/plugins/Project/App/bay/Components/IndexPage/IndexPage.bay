@@ -1,0 +1,28 @@
+<class name="Project.App.Components.IndexPage.IndexPage">
+
+<use name="Runtime.Widget.Section" component="true" />
+<use name="Runtime.Widget.Text" component="true" />
+
+<style>
+.main_section{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.page_title{
+	margin-bottom: 10px;
+}
+</style>
+
+<template>
+	<div class="main_page">
+		<Section class="main_section">
+			<Text content="Clear project" class="page_text" />
+			<Text tag="h1" content="Index page" class="page_title page_title" />
+		</Section>
+	</div>
+</template>
+
+</class>

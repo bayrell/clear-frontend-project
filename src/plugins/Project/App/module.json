@@ -1,0 +1,24 @@
+{
+	"name": "Project.App",
+	"assets": [
+		"Components\/Blocks\/CSS.bay",
+		"Components\/IndexPage\/IndexPage.bay",
+		"Components\/IndexPage\/IndexPageModel.bay",
+		"Components\/NotFoundPage\/NotFoundPage.bay",
+		"Components\/NotFoundPage\/NotFoundPageModel.bay",
+		"ModuleDescription.bay"
+	],
+	"require": [
+	],
+	"groups": [
+		"app"
+	],
+	"src": ".\/bay",
+	"dest": {
+		"php": ".\/php",
+		"es6": ".\/es6"
+	},
+	"allow": [
+		"\\.bay$"
+	]
+}

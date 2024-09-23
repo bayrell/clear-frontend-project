@@ -1,0 +1,13 @@
+{
+	"name": "Project",
+	"assets": [],
+	"require": [],
+	"groups": [],
+	"modules":
+	[
+		{
+			"src": "App",
+			"type": "module"
+		}
+	]
+}
