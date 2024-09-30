@@ -7,12 +7,7 @@ return function($loader)
 	/* Enable constructor */
 	if (isset($_SERVER["CONSTRUCTOR"]))
 	{
-		$baylang_path = "/srv";
-		if ($baylang_path)
-		{
-			$loader->include($baylang_path . "/baylang.php");
-		}
-		$loader->setEnv("CONSTRUCTOR", "true");
+		$loader->include("/srv/baylang.php");
 	}
 	
 	/* Setup environments */
